@@ -1,0 +1,10 @@
+1. get our minimal wasm https://mbebenita.github.io/WasmExplorer/
+2. run index.html
+3. fix the env error with `{ env: { printf: console.log } }`
+4. inspect & look at what we're being returned - memory!
+
+// Inspect the memory buffer (it's huge, substring it)
+new Uint8Array(temp2.buffer).toString().substr(0,100);
+
+// Inspect the reference we've been given
+Array.from(new Uint8Array(temp2.buffer)).splice(16, 100).map(num => String.fromCharCode(num)).join('')

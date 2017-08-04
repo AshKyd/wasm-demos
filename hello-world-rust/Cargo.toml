@@ -1,0 +1,11 @@
+[package]
+authors = ["Ash Kyd <ash@kyd.com.au>"]
+name = "rustache"
+version = "0.1.0"
+
+[[bin]]
+name = "rustache"
+path = "main.rs"
+
+[dependencies]
+mustache = "0.8.0"

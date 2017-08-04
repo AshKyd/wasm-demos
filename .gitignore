@@ -1,0 +1,6 @@
+emsdk_portable
+fastcomp
+hello-world*/*.bin
+hello-world*/*.wasm
+hello-world*/*.html
+hello-world*/*.js

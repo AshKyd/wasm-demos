@@ -1,0 +1,8 @@
+[package]
+name = "mustache-renderer"
+version = "0.1.0"
+authors = ["Ash Kyd <ash@kyd.com.au>"]
+
+[dependencies]
+rustc-serialize = "0.3"
+mustache = "*"
