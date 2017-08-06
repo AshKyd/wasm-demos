@@ -1,3 +1,5 @@
+A frontend to wasm, implementing our own text decoder.
+
 1. get our minimal wasm https://mbebenita.github.io/WasmExplorer/
 2. run index.html
 3. fix the env error with `{ env: { printf: console.log } }`
